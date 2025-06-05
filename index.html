@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RhythmWave</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">🎵 RhythmWave</div>
+    <nav>
+      <a href="#hero">Home</a>
+      <a href="#artists" src="">Artists</a>
+      <a href="#albums">Albums</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero fade-in">
+    <h1>Feel the Beat of Your Life</h1>
+    <p>Discover new music, explore events, and connect with artists.</p>
+    <button onclick="explore()">Explore Now</button>
+  </section>
+
+  <section class="features fade-in">
+    <div>
+      <img src="discover.jpg" alt="Discover Music">
+      <h2>Discover</h2>
+      <p>New tracks and artists every week curated for you.</p>
+    </div>
+    <div>
+      <img src="images/events.jpg" alt="Live Events">
+      <h2>Live Events</h2>
+      <p>Don't miss out on concerts and underground gigs.</p>
+    </div>
+    <div>
+      <img src="images/community.jpg" alt="Community">
+      <h2>Community</h2>
+      <p>Join music lovers and share your playlist.</p>
+    </div>
+  </section>
+
+  <section id="artists" class="section fade-in">
+    <h2>🔥 Trending Artists</h2>
+    <input type="text" id="artistSearch" placeholder="Search artists...">
+    <ul id="artistList" class="grid-three">
+      <li>🎤 Luna Beats</li>
+      <li>🎸 Echo Theory</li>
+      <li>🎹 Synthie Soul</li>
+      <li>🧑‍🎤 Vibe Machine</li>
+      <li>🪘 Pulse Tribe</li>
+    </ul>
+  </section>
+
+  <section id="albums" class="section fade-in">
+    <h2>🎼 Top Albums</h2>
+    <input type="text" id="albumSearch" placeholder="Search albums...">
+    <ul id="albumList" class="grid-three">
+      <li><strong>Waves</strong> by Luna Beats</li>
+      <li><strong>Reverb Nation</strong> by Echo Theory</li>
+      <li><strong>Dream Synths</strong> by Synthie Soul</li>
+      <li><strong>City Rhythms</strong> by Vibe Machine</li>
+      <li><strong>Tribal Bass</strong> by Pulse Tribe</li>
+    </ul>
+  </section>
+
+  <section id="events" class="section fade-in">
+    <h2>🎤 Upcoming Events</h2>
+    <ul class="grid-three">
+      <li>Live at Skyline Arena - June 15</li>
+      <li>Underground Nights - July 8</li>
+      <li>Sunset Vibes Festival - August 20</li>
+    </ul>
+  </section>
+
+  <section class="section fade-in">
+    <h2>🧠 Music Tips & Blog</h2>
+    <ul class="grid-three">
+      <li><a href="#">How to Build a Home Studio</a></li>
+      <li><a href="#">Best DAWs for Beginners</a></li>
+      <li><a href="#">Vocal Health for Performers</a></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="newsletter fade-in">
+    <h2>📬 Subscribe to Our Newsletter</h2>
+    <p>Get updates, news, and free tracks in your inbox.</p>
+    <form id="newsletterForm">
+      <input type="email" id="emailInput" placeholder="Your email" required />
+      <button type="submit">Subscribe</button>
+    </form>
+    <p id="newsletterMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RhythmWave. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
